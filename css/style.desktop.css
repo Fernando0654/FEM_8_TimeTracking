@@ -16,7 +16,7 @@ main .content {
 }
 
 main .content .user-wrapper {
-  width: 25%;
+  width: 23%;
 }
 
 main .content .user-wrapper ._header {
@@ -71,14 +71,14 @@ main .content .user-pannel {
 }
 
 main .content .user-pannel .pannel-box {
-  width: 31%;
+  width: 30%;
   margin: 0;
   padding-top: 2em;
   cursor: pointer;
 }
 
 main .content .user-pannel .pannel-box .box-content ._header-box h3 {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 main .content .user-pannel .pannel-box .box-content ._header-box span img {

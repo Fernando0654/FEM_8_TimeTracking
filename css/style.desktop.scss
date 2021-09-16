@@ -9,7 +9,7 @@ main {
     margin: 0;
     gap: 1em;
     .user-wrapper {
-      width: 25%;
+      width: 23%;
       ._header {
         width: 100%;
         flex-direction: column;
@@ -42,14 +42,14 @@ main {
       width: 75%;
       gap: 1em;
       .pannel-box {
-        width: 31%;
+        width: 30%;
         margin: 0;
         padding-top: 2em;
         cursor: pointer;
         .box-content {
           ._header-box {
             h3 {
-              font-size: 1rem;
+              font-size: 0.8rem;
             }
             span img {
               width: 20px;
