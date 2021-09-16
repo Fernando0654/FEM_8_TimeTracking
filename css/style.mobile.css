@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+body {
+  background-color: #0f1424;
+  font-size: 20px;
+}
+
+main {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  font-family: "Rubik", sans-serif;
+}
+
+main .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+main .content .user-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background-color: #1c1f4a;
+  border-radius: 20px;
+}
+
+main .content .user-wrapper ._header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background-color: #5847eb;
+  border-radius: 20px;
+}
+
+main .content .user-wrapper ._header img {
+  width: 80px;
+  margin: 1em;
+  border: 2px solid #fff;
+  border-radius: 100%;
+}
+
+main .content .user-wrapper ._header h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #bdc1ff;
+  font-weight: 300;
+  text-align: left;
+  width: 100%;
+  padding: 0.5em;
+  font-size: 0.9rem;
+}
+
+main .content .user-wrapper ._header h1 span {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+main .content .user-wrapper ._footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+main .content .user-wrapper ._footer button {
+  color: #bdc1ff;
+  font-weight: 400;
+  text-align: center;
+  font-size: 0.9rem;
+  background-color: transparent;
+  display: block;
+  padding: 2em;
+  border: none;
+}
+
+main .content .user-wrapper ._footer .active {
+  color: #fff;
+}
+
+main .content .user-pannel {
+  width: 100%;
+}
+
+main .content .user-pannel .pannel-box {
+  width: 100%;
+  padding-top: 3em;
+  margin-top: 1em;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-position: 96% -10%;
+  background-size: 30%;
+}
+
+main .content .user-pannel .pannel-box .box-content {
+  background-color: #1c1f4a;
+  border-radius: 20px;
+  padding: 2em;
+}
+
+main .content .user-pannel .pannel-box .box-content ._header-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .content .user-pannel .pannel-box .box-content ._header-box h3, main .content .user-pannel .pannel-box .box-content ._header-box span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+main .content .user-pannel .pannel-box .box-content ._header-box h3 {
+  color: #fff;
+  font-weight: 500;
+  text-align: left;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 0;
+}
+
+main .content .user-pannel .pannel-box .box-content ._header-box span {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+main .content .user-pannel .pannel-box .box-content ._header-box span img {
+  width: 25px;
+}
+
+main .content .user-pannel .pannel-box .box-content ._body-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .content .user-pannel .pannel-box .box-content ._body-box p {
+  width: 50%;
+  margin: 0;
+}
+
+main .content .user-pannel .pannel-box .box-content ._body-box .hrs {
+  color: #fff;
+  font-weight: 300;
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+main .content .user-pannel .pannel-box .box-content ._body-box .period {
+  color: #bdc1ff;
+  font-weight: 400;
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+main .content .user-pannel .work {
+  background-color: #ff8c66;
+  background-image: url(../assets/icons/icon-work.svg);
+}
+
+main .content .user-pannel .play {
+  background-color: #56c2e6;
+  background-image: url(../assets/icons/icon-play.svg);
+}
+
+main .content .user-pannel .study {
+  background-color: #ff5c7c;
+  background-image: url(../assets/icons/icon-study.svg);
+}
+
+main .content .user-pannel .exercise {
+  background-color: #4acf81;
+  background-image: url(../assets/icons/icon-exercise.svg);
+}
+
+main .content .user-pannel .social {
+  background-color: #7536d3;
+  background-image: url(../assets/icons/icon-social.svg);
+}
+
+main .content .user-pannel .self {
+  background-color: #f1c65b;
+  background-image: url(../assets/icons/icon-self-care.svg);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.mobile.css.map */
