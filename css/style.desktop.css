@@ -16,7 +16,7 @@ main .content {
 }
 
 main .content .user-wrapper {
-  width: 20%;
+  width: 25%;
 }
 
 main .content .user-wrapper ._header {
@@ -31,13 +31,13 @@ main .content .user-wrapper ._header {
 }
 
 main .content .user-wrapper ._header h1 {
-  width: 100%;
+  width: 80%;
   padding: 1em;
   padding-bottom: 3em;
 }
 
 main .content .user-wrapper ._header h1 span {
-  font-size: clamp(1rem, 4vw, 2.5rem);
+  font-size: clamp(1rem, 4vw, 2rem);
 }
 
 main .content .user-wrapper ._footer {
@@ -71,8 +71,9 @@ main .content .user-pannel {
 }
 
 main .content .user-pannel .pannel-box {
-  width: 30%;
+  width: 31%;
   margin: 0;
+  padding-top: 2em;
   cursor: pointer;
 }
 

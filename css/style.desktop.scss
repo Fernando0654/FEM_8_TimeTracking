@@ -9,17 +9,17 @@ main {
     margin: 0;
     gap: 1em;
     .user-wrapper {
-      width: 20%;
+      width: 25%;
       ._header {
         width: 100%;
         flex-direction: column;
         align-items: flex-start;
         h1 {
-          width: 100%;
+          width: 80%;
           padding: 1em;
           padding-bottom: 3em;
           span {
-            font-size: clamp(1rem, 4vw, 2.5rem);
+            font-size: clamp(1rem, 4vw, 2rem);
           }
         }
       }
@@ -42,8 +42,9 @@ main {
       width: 75%;
       gap: 1em;
       .pannel-box {
-        width: 30%;
+        width: 31%;
         margin: 0;
+        padding-top: 2em;
         cursor: pointer;
         .box-content {
           ._header-box {
