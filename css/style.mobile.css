@@ -266,6 +266,7 @@ main .content .user-wrapper ._header h1 {
 main .content .user-wrapper ._header h1 span {
   color: #fff;
   font-size: 1.3rem;
+  padding-bottom: 0.5em;
 }
 
 main .content .user-wrapper ._footer {
@@ -336,6 +337,7 @@ main .content .user-pannel .pannel-box .box-content ._header-box {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-bottom: 1em;
 }
 
 main .content .user-pannel .pannel-box .box-content ._header-box h3, main .content .user-pannel .pannel-box .box-content ._header-box span {

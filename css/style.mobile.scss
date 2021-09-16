@@ -55,6 +55,7 @@ main {
           span {
             color: #fff;
             font-size: 1.3rem;
+            padding-bottom: 0.5em;
           }
         }
       }
@@ -91,6 +92,7 @@ main {
           padding: 2em;
           ._header-box {
             @include flexBox(true, row, center, center);
+            padding-bottom: 1em;
             h3, span {
               display: flex;
               width: 50%;
