@@ -12,7 +12,7 @@ function getMonthlyReport() {
                     </div>
                     <div class="_body-box">
                         <p class="hrs">${data.timeframes.monthly.current}hrs</p>
-                        <p class="period">Last Week - ${
+                        <p class="period">Last Month - ${
                           data.timeframes.monthly.previous
                         }hrs</p>
                     </div>

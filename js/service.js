@@ -8,9 +8,9 @@ function getTimeTracking() {
     .then((res) => res.json())
     .then((data) => {
       DATA = data;
-      boxContent = "";
       document.querySelector(".active").classList.remove("active");
       document.getElementById("weekly").classList.add("active");
+      boxContent = "";
       DATA.map((data) => {
         boxContent += `
                 <div class="pannel-box ${data.title.toLowerCase()}">

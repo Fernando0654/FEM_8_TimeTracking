@@ -12,7 +12,7 @@ function getDailyReport() {
                   </div>
                   <div class="_body-box">
                       <p class="hrs">${data.timeframes.daily.current}hrs</p>
-                      <p class="period">Last Week - ${
+                      <p class="period">Last Day - ${
                         data.timeframes.daily.previous
                       }hrs</p>
                   </div>
